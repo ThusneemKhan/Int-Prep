@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-2 Implementation of HTML Code</title>
+</head>
+<body>
+    <!-- IMplementation Questions -->
+
+    <!-- 1.Ordered List with Roamn No. -->
+    <h3>Ordered and Unordered List</h3>
+    <ol type="I">
+        <li>Roman No One</li>
+        <li>Roman No Two</li>
+        <li>Roman No Three</li>
+        <li>Roman No Four</li>
+        <li>Roman No Five</li>
+    </ol>
+
+    <!-- Unordered List with Circle -->
+    <ul type="circle">
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Banana</li>
+    </ul><hr>
+    <!-- Code to Link Prepbytes -->
+      <h3>Code to Link Prepbytes</h3>
+    <a href="https://www.prepbytes.com">CLICK HERE</a><br><br>
+
+    <!-- Insert an Img -->
+    <!-- Two ways of adding image -->
+    <h3>Two Way of Inserting an image</h3>
+
+    <img src="./lens.jpg" alt="No alt image" width="250px"><h5>Relative Way</h5> <br>
+    <img src="https://blog.hubspot.com/hubfs/image-file-extensions.jpg" alt="No image" width="250px"> <h5>Absolute Way</h5><br> <hr>
+
+    <!-- Write html code to create a 2*2 table : Table columns should be name and salary , and provide two entries for this. -->
+    <h3>Write html code to create a 2*2 table : Table columns should be name and salary</h3>
+    <table border="2">
+        <tr>
+            <th>NAME</th>
+            <th>Salary</th>
+            
+        </tr>
+        <tr>
+            <td>Thusneem</td>
+            <td>25k</td>
+            
+        </tr>
+        <tr>
+            <td>Reshma</td>
+            <td>30k</td>
+            
+        </tr>
+    </table><hr>
+
+    <!-- Create a form contain input fields like name age email and contact -->
+        <h2>FORM</h2>
+        <form action="">
+                <label for="Name">Name</label>
+                <input type="text" value="" name="Name" id="Name" placeholder="Enter your Name" required><br>
+                <label for="Age">Age</label>
+                <input type="number" value="" name="Age" id="Age" placeholder="Enter your Age" required><br>
+                <label for="Email">Email</label>
+                <input type="email" value="" name="Email" id="Email" placeholder="Drop Your MailID" required><br>
+                <label for="contact">Contact</label>
+                <input type="tel" value="" name="contact" id="contact" placeholder="Your Contact No." required><br>
+                <input type="submit" value="submit">
+        </form><hr>
+    <!-- Tables using COlspan -->
+        <h3>Tables using Colspan</h3>
+    <table border="2">
+        <tr>
+            <th>NAME</th>
+            <th colspan="2">College</th>
+        </tr>
+        <tr>
+            <td>Thusneem</td>
+            <td>Saranathan College</td>
+            <td>Sastra Collage</td>
+        </tr>
+        <tr>
+            <td>Reshma</td>
+            <td>Saranathan College</td>
+            <td>Sastra Collage</td>
+        </tr>
+    </table><hr>
+
+    <!-- Create radio button (MERN, MEAN : course)and checkbox(HTML, CSS, React, Node : technology) and explain the difference between these two  -->
+        <h3>RADIO & CHECKBOX</h3>
+    <form action="">
+        <input type="radio" value="MERN" name="Course" id="Course">
+        <label for="Course" >MERN</label><br>
+        <input type="radio" value="" name="Course" id="course">
+        <label for="Course" >MEAN</label><br>
+        <h4>Radio</h4>
+        <input type="checkbox" value="HTML" name="technology" id="technology">
+        <label for="technology">HTML</label><br>
+        <input type="checkbox" value="CSS" name="technology" id="technology">
+        <label for="technology">CSS</label><br>
+        <input type="checkbox" value="Javascript" name="technology" id="technology">
+        <label for="technology">Javascript</label><br>
+        <input type="checkbox" value="Nodejs" name="technology" id="technology">
+        <label for="technology">Node.js</label><br>
+    </form>
+
+</body>
+</html>
